@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/ll_root"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/T_mini_black"
+              android:descendantFocusability="afterDescendants"
+              android:gravity="bottom"
+              android:orientation="vertical">
+
+    <View
+        style="@style/view_title"/>
+
+    <TextView
+        android:id="@+id/tv_tag"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/default_bg"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/px36"
+        android:text=""
+        android:textColor="#999999"
+        android:textSize="14sp"/>
+
+    <ListView
+        android:id="@+id/lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px820"
+        android:background="@color/white"
+        android:divider="@color/default_line"
+        android:dividerHeight="1px"
+        android:scrollbars="none"/>
+    <View
+        style="@style/view_title"/>
+
+    <TextView
+        android:id="@+id/tv_buttom"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="#333333"
+        android:textSize="16sp"/>
+</LinearLayout>

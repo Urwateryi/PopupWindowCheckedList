@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView android:id="@+id/ctv_content"
+                 xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:layout_width="match_parent"
+                 android:layout_height="@dimen/px150"
+                 android:background="@color/white"
+                 android:checkMark="@drawable/cb_checked"
+                 android:gravity="center_vertical"
+                 android:paddingRight="-72px"
+                 android:paddingLeft="@dimen/px36"
+                 android:text=""
+                 android:textColor="@color/default_black"
+                 android:textSize="@dimen/px42"/>

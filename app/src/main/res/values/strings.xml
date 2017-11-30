@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PopWindowCheckedTextView</string>
+
+    <string name="choose_drawback_reason_of_refuse">选择退款原因</string>
+
+    <string name="reason_draw_back_buy_more">多拍/错拍/不喜欢/不想要</string>
+    <string name="reason_draw_back_not_receive">未收到货</string>
+    <string name="reason_draw_back_its_fake">假货</string>
+    <string name="reason_draw_back_buy_error">卖家错发，漏发</string>
+    <string name="reason_draw_back_type_error">型号款式颜色等问题</string>
+    <string name="reason_draw_back_quality_problem">商品质量瑕疵</string>
+    <string name="reason_draw_back_deal">协商一致退款</string>
+    <string name="put_logistics">提交物流</string>
+    <string name="reason_draw_back_no_info_of_logistics">无物流信息</string>
+    <string name="reason_draw_back_no_goods">缺货</string>
+    <string name="reason_draw_back_another_reason">其他原因</string>
+
+    <string name="cancel">取消</string>
+</resources>
