@@ -32,8 +32,8 @@ public class TestActivity extends AutoLayoutActivity {
 
         mList=getPopList();
         mPopup = new PopupWindowCheckChoose(this, mList);
-        mPopup.setTagTxt(getString(R.string.choose_drawback_reason_of_refuse))
-                .setButtomTxt(getString(R.string.cancel))
+        mPopup.setTagTxt(getString(R.string.choose_drawback_reason_of_refuse))//设置顶部title的内容
+                .setButtomTxt(getString(R.string.cancel))//设置底部按钮内容
                 .setChoiceMode(AbsListView.CHOICE_MODE_SINGLE);//单选
 
         mRlContent.setOnClickListener(v -> {

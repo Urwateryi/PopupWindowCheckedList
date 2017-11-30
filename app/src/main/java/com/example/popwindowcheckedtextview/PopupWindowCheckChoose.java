@@ -179,6 +179,7 @@ public class PopupWindowCheckChoose extends PopupWindow {
             if (mLisenter != null) {
                 ArrayList<Integer> positionList=new ArrayList<>();
 
+                //获取选中的item的position列表
                 SparseBooleanArray checkedItemPositions = mListView.getCheckedItemPositions();
                 for (int i=0;i<mList.size();i++){
                     if (checkedItemPositions.get(i)){
