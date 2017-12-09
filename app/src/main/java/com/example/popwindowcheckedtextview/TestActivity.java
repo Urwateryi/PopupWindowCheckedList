@@ -22,6 +22,8 @@ public class TestActivity extends AutoLayoutActivity {
     private PopupWindowCheckChoose mPopup;
     private ArrayList<String> mList=new ArrayList();
 
+    //test
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
